@@ -4,11 +4,14 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+
 /**
  * MiniAppHook 主界面
  * 
  * 本模块主要用于后台服务，不需要复杂的 UI
  * 此 Activity 仅作为占位符，用于满足 AndroidManifest 要求
+ * 
+ * Version: 1.0.1
  */
 public class MainActivity extends Activity {
     
