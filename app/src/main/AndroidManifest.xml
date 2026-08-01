@@ -4,10 +4,11 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
+    
     <application
         android:label="MiniAppHook"
         android:theme="@android:style/Theme.Material.Light">
+        
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -16,5 +17,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <!-- LSPosed Module -->
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposedmoduleminversion"
+            android:value="94" />
+        <meta-data
+            android:name="xposedmoduledescription"
+            android:value="微信小程序自动化测试 LSPosed 模块" />
+            
     </application>
 </manifest>
