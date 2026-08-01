@@ -19,5 +19,5 @@ android {
 }
 
 dependencies {
-    compileOnly 'org.lsposed.lsparanoid:lsparanoid:0.6.1'
+    compileOnly 'de.robv.android.xposed:api:82'
 }
