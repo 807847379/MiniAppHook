@@ -17,3 +17,7 @@ android {
         targetCompatibility JavaVersion.VERSION_11
     }
 }
+
+dependencies {
+    compileOnly 'org.lsposed.lsparanoid:lsparanoid:0.6.1'
+}
