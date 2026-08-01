@@ -1,0 +1,6 @@
+id=miniapphook
+name=MiniAppHook
+version=v1.0.0
+versionCode=1
+author=YourName
+description=微信小程序自动化测试 LSPosed 模块
